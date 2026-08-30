@@ -2,14 +2,12 @@ cff-version: 1.2.0
 message: "If you use this software or data, please cite the paper below."
 title: "GLP-1 weight loss drugs could result in net GHG reductions: analysis code"
 authors:
-  - family-names: Wynes
-    given-names: Seth
-repository-code: "https://github.com/[username]/[repo]"
+ Seth Wynes, Yimin Chen, Somanshu Prasad, Margaret Hegwood, Kevin E. Liang, Matthew G. Burgess
+repository-code: "https://github.com/swynes/glp1-public"
 license: Apache-2.0
 preferred-citation:
   type: article
   title: "GLP-1 weight loss drugs could result in net GHG reductions"
   authors:
-    - family-names: Wynes
-      given-names: Seth
+     Seth Wynes, Yimin Chen, Somanshu Prasad, Margaret Hegwood, Kevin E. Liang, Matthew G. Burgess
   year: 2026
