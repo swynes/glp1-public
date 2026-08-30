@@ -1,0 +1,7 @@
+scenario_spec,ci_scenario,uptake,cum_ratio_10yr,annual_ratio_y10,min_country_ratio,min_country_iso,min_country_name,n_tipping_countries,n_complete_countries
+P10,p10,max_uptake,1.107383006279563,0.5693401593885876,0.7973106377756932,LTU,Lithuania,7,40
+P10,p10,mod_uptake,1.111789797279967,0.5728861866652738,0.7712687281835551,LTU,Lithuania,6,40
+P90,p90,max_uptake,2.7013152626499157,1.388814349353741,1.6944266811536524,LTU,Lithuania,0,40
+P90,p90,mod_uptake,2.7159125624992053,1.3993291958681184,1.6369665810837015,LTU,Lithuania,0,40
+combined_conservative,p10,max_uptake,0.7280750203012349,0.37431356043047204,0.556927694445241,POL,Poland,20,40
+combined_conservative,p10,mod_uptake,0.7312005601807806,0.3767562703668249,0.5469033852084291,POL,Poland,20,40

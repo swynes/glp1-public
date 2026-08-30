@@ -1,0 +1,12 @@
+pandas
+numpy
+pyarrow
+scipy
+matplotlib
+seaborn
+pyreadr
+country_converter
+jupyter
+ipykernel
+openpyxl
+xlrd

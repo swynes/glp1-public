@@ -1,0 +1,12 @@
+step,label,kind,plot,value_Mt,n_countries,scenario,horizon_years,food_survival_weighted,drug_survival_weighted,survivor_emissions_included
+naive_reductions,"Naive
+reductions",increase,True,1004.3016772936489,40,max_uptake,10,True,True,True
+rebound_effect,"Rebound
+effect",decrease,True,520.4218927481788,40,max_uptake,10,True,True,True
+actual_food_savings,Actual food savings (after rebound),total,False,483.8797845454701,40,max_uptake,10,True,True,True
+survivorship,"Survivorship
+emissions",decrease,True,243.0024778823899,40,max_uptake,10,True,True,True
+manufacturing,"Manufacturing
+emissions",decrease,True,11.784050838477395,40,max_uptake,10,True,True,True
+net_savings,"Net emissions
+savings",total,True,229.0932558246028,40,max_uptake,10,True,True,True

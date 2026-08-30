@@ -1,0 +1,9 @@
+overview_scenario,overview_label,sensitivity_group,annual_food_savings_Mt,survivor_emissions_10yr_Mt,ratio_food_to_mort,min_country,min_country_ratio,n_complete_countries,n_tipped_countries
+baseline_mean_ci,Baseline,Baseline,48.79792273279903,243.0024778823899,1.9427609867232756,Lithuania,1.291371161607312,40,0
+fatty_food_down_mean_ci,Fatty foods down,Diet composition,61.67210577059217,243.0024778823899,2.4550881192018026,Lithuania,1.5058944694225185,40,0
+cereal_sweets_up_mean_ci,Cereals/sweets shift,Diet composition,32.935007473432705,243.0024778823899,1.3111961003096466,Hungary,0.92993495869282,40,3
+baseline_p10_ci,All foods P10 CI,Carbon intensity,21.540202170548838,188.16600293348853,1.107383006279563,Lithuania,0.7973106377756932,40,7
+baseline_p90_ci,All foods P90 CI,Carbon intensity,92.0516344339399,329.6887128225885,2.7013152626499157,Lithuania,1.6944266811536524,40,0
+cereal_sweets_up_p10_ci,Cereals/sweets + all-food P10 CI,Combined conservative,14.16224592840958,188.16600293348853,0.7280750203012349,Poland,0.556927694445241,40,20
+
+# Note: N = 40 countries. Countries lacking survivor-emissions data are excluded so that the ratio's numerator and denominator cover the same set. annual_food_savings_Mt is net of drug manufacturing emissions and is therefore smaller than the global food-savings total.
