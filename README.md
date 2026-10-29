@@ -98,6 +98,26 @@ the exact filename it wanted. Download the 2024 vintage from
 
 ## Reproducing the paper's numbers
 
+## System requirements
+
+- Tested on Windows 11 (version 25H2) with Python 3.12.5 and R 4.4.1 (R is
+  needed only for the one-time Parquet export and the optional upstream
+  simulation).
+- Python packages, tested versions: pandas 3.0.2, NumPy 2.4.4, SciPy 1.17.1,
+  matplotlib 3.10.9, pyreadr 0.5.6, plus pyarrow. R package: arrow 19.0.1.1.
+- No non-standard hardware is required; tested on a laptop with 16 GB RAM.
+- Installation takes a few minutes, plus downloading the OSF deposit.
+
+## Quick start (reviewers)
+
+1. Install as in Setup below.
+2. Download the four files from the OSF deposit (see Data deposit) and place
+   them as listed.
+3. Run the one-time Parquet export.
+4. Run `python -m reference.metrics` from the repository root. It takes about
+   two minutes and should exit with status 0, reporting agreement on all 47
+   reference values.
+   
 ### Run order
 
 Order matters between the mortality and food stages. Everything from step 3
@@ -1126,7 +1146,7 @@ The original R-based pipeline (simulation, analysis, and mortality scripts) has 
 
 ## References
 
-- **Hegwood, M. et al. (2023).** Simulating the food-system impacts of anti-obesity medications. *Nature Food*, 4, 828–836. [doi:10.1038/s43016-023-00792-z](https://doi.org/10.1038/s43016-023-00792-z)
+- **Hegwood, M. et al. (2023).** Rebound effects could offset more than half of avoided food loss and waste”, Nature Food 4, 585–595.
 - **Blundell, J. et al. (2017).** Effects of once-weekly semaglutide on appetite, energy intake, control of eating, food preference and body weight in subjects with obesity. *Diabetes, Obesity and Metabolism*, 19, 1242–1251. [doi:10.1111/dom.12932](https://doi.org/10.1111/dom.12932)
 - **Gibbons, C. et al. (2021).** Effects of oral semaglutide on energy intake, food preference, appetite, control of eating and body weight in subjects with type 2 diabetes. *Diabetes, Obesity and Metabolism*, 23, 581–588. [doi:10.1111/dom.14255](https://doi.org/10.1111/dom.14255)
 - **Hironaka, J. et al. (2025).** Changes in food preferences after oral semaglutide administration in Japanese patients with type 2 diabetes: KAMOGAWA-DM cohort. *Diabetes & Vascular Disease Research*, 22. [doi:10.1177/14791641251318309](https://doi.org/10.1177/14791641251318309)
