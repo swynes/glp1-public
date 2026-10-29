@@ -3,9 +3,10 @@ The code in this repository is licensed under Apache 2.0 (see LICENSE).
 Data files carry their own terms.
 
 Redistributed here:
-  oecd/consumption_ghg_2025.csv  - OECD Greenhouse Gas Footprints extract.
+oecd/consumption_ghg_2025.csv - OECD Greenhouse Gas Footprints extract,
+  redistributed under OECD terms: https://www.oecd.org/en/about/terms-conditions.html
   Committed CSVs under data_result/, Food data/ and the repository root -
-  outputs of this analysis, released under a bespoke, permissive license: https://www.oecd.org/en/about/terms-conditions.html
+  outputs of this analysis, CC BY 4.0.
 
 In the OSF deposit:
   FAOSTAT Food Balance Sheets and Consumer Price Indices - FAO, CC BY 4.0.
